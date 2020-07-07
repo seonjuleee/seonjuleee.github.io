@@ -3,7 +3,7 @@ title: Poole
 tagline: The Jekyll Butler
 url: https://seonjuleee.github.io/
 paginate: 1
-baseurl: ""
+baseurl: " "
 permalink: pretty
 
 # Gems
@@ -39,3 +39,4 @@ author:
 
 # Custom vars
 version: 3.0.0
+remote_theme: poole/poole
