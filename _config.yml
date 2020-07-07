@@ -1,9 +1,9 @@
 # Setup
 title: Poole
 tagline: The Jekyll Butler
-url: https://getpoole.com
+url: https://seonjuleee.github.io/
 paginate: 1
-baseurl: "https://seonjuleee.github.io/"
+baseurl: ""
 permalink: pretty
 
 # Gems
