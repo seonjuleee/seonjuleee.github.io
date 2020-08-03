@@ -14,7 +14,7 @@ Stack<Element> stack = new Stack<>();
 ```
 
 
-### 함수 
+### 메소드
 ```java
 public boolean empty();
 // stack의 값이 비었는지 확인
