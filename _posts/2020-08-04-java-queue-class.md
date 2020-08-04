@@ -28,7 +28,7 @@ queue 클래스의 메소드는 문제 상황에서 예외를 던지는지 아�
 ```java
 import java.util.LinkedList;
 import java.util.Queue;
-public class Stack {
+public class Queue {
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<Integer>();
         queue.add(1);
