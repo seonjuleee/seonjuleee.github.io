@@ -14,11 +14,12 @@ Queue<Integer> queue = new LinkedList<>();
 
 
 ### 메소드
-|   |throws exception|returns special value|
+
+|   | throws exception | returns special value |
 |-----|-----|-----|
-|Insert|boolean add(e)|boolean offer(e)|
-|Remove|E remove()|E poll()|
-|Examine|E element()|E peek()|
+| Insert | boolean add(e) | boolean offer(e) |
+| Remove | E remove() | E poll() |
+| Examine | E element() | E peek() |
 
 queue 클래스의 메소드는 문제 상황에서 예외를 던지는지 아니면 값(null 또는 false)를 반환하는지에 따라 달라질 수 있다.
 
