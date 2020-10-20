@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[git] blog 테마 바꾸기"
+title: "[blog] blog 테마 바꾸기"
 ---
 
 ### 테마 선택하기
