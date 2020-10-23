@@ -241,8 +241,9 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-toggle:active,
-/* #sidebar-checkbox:focus ~ .sidebar-toggle, */
-#sidebar-checkbox:checked ~ .sidebar-toggle {
+#sidebar-checkbox:focus ~ .sidebar-toggle,
+#sidebar-checkbox:checked ~ .sidebar-toggle 
+{
   color: #fff;
   background-color: #403e69;
 }
@@ -369,7 +370,7 @@ a.sidebar-nav-item:focus {
   text-decoration: none;
 }
 .related-posts li a:hover small {
-  color: inherit;
+  color: #999;
 }
 
 
