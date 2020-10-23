@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[blog] jekyll theme 커스텀하기 - lanyon 테마 메인 화면 변경"
+categories: [Blog]
 ---
 
 ### Home 화면에서 글 제목만 보이게 설정

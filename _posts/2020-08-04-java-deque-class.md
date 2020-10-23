@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[알고리즘][JAVA] 덱 클래스"
+categories: [Algorithm]
 ---
 
 ### 덱

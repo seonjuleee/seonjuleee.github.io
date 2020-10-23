@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[blog] blog 테마 바꾸기"
+categories: [Blog]
 ---
 
 ### 테마 선택하기
