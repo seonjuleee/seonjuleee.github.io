@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[알고리즘][JAVA] 큐 클래스"
-categories: [Algorithm]
+title: "[알고리즘][Java] 큐 클래스"
+categories: [Algorithm, Java]
 ---
 
 ### 큐 클래스
