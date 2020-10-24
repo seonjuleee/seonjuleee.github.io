@@ -24,3 +24,11 @@ remote_theme: poole/lanyon
 
 # Font
 google_fonts: "Noto+Sans+KR:wght@100;300;400;500;700;900"
+
+# 수학 수식 표시
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
