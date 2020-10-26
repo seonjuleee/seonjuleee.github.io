@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[알고리즘][Java] 자바의 기본 자료형 종류와 저장 가능 범위"
-categories: [Algorithm, Java]
+title: "자바의 기본 자료형 종류와 저장 가능 범위"
+categories: [Java]
 ---
 
 |종류| 데이터형 | 크기<small>(byte)</small> | 표현 범위|

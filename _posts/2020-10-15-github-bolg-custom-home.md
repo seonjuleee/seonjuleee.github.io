@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[blog] jekyll theme 커스텀하기 - lanyon 테마 메인 화면 변경"
+title: "jekyll theme 커스텀하기 - lanyon 테마 메인 화면 변경"
 categories: [Blog]
 ---
 

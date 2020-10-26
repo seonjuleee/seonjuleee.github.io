@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[blog] jekyll theme 커스텀하기 - 글꼴 변경"
+title: "jekyll theme 커스텀하기 - 글꼴 변경"
 categories: [Blog]
 ---
 

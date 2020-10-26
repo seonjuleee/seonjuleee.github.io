@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[blog] blog 테마 바꾸기"
+title: "blog 테마 바꾸기"
 categories: [Blog]
 ---
 

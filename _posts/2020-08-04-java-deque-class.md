@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[알고리즘][Java] 덱 클래스"
-categories: [Algorithm, Java]
+title: "Deque 클래스"
+categories: [Java]
 ---
 
 ### 덱

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[알고리즘] 유클리드 호제법(최대공약수 구하기)"
+title: "유클리드 호제법(최대공약수 구하기)"
 categories: [Algorithm]
 use_math: true
 ---

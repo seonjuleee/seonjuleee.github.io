@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[알고리즘][Java] 스택 클래스"
-categories: [Algorithm, Java]
+title: "Stack 클래스"
+categories: [Java]
 ---
 
 ### 스택 클래스

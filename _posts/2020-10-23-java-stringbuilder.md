@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[알고리즘][Java] StringBuilder"
-categories: [Algorithm, Java]
+title: "StringBuilder"
+categories: [Java]
 ---
 
 ### String과 StringBuilder의 차이
