@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deque 클래스"
+title: "Java - Deque 클래스"
 categories: [Java]
 ---
 

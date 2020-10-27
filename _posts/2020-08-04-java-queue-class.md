@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Queue 클래스"
+title: "Java - Queue 클래스"
 categories: [Java]
 ---
 

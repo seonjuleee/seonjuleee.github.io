@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stack 클래스"
+title: "Java - Stack 클래스"
 categories: [Java]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "StringBuilder"
+title: "Java - StringBuilder"
 categories: [Java]
 ---
 
