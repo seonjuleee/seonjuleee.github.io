@@ -51,5 +51,7 @@ categories: [Project]
 
 ### 참고
 [Tutorial: Using Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
+
 [Thymeleaf 태그 레퍼런스(2.1.4 버전 기준)](https://indra818.github.io/2017/11/23/thymeleaf-tag-reference/)
+
 [Thymeleaf의 기본 문법 정리(SpringBoot)](https://chung-develop.tistory.com/5)
