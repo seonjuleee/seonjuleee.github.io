@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thymeleaf 문법 정리"
-categories: [Project]
+categories: [Spring]
 ---
 
 ### 텍스트 표현
