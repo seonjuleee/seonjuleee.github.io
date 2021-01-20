@@ -49,6 +49,10 @@ categories: [Spring]
 ### 변수 설정
 - `th:with` : 변수값 지정
 
+### 객체 전달
+- `th:object` : 객체 전달
+- `th:field` : 객체의 속성 전달
+
 ### 참고
 [Tutorial: Using Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
 
