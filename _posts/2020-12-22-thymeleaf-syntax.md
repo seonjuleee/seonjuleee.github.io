@@ -15,10 +15,8 @@ categories: [Spring]
 
 > 결과
 
-```
-<b>Hello<b>
-**Hello**
-```
+- `<b>Hello</b>`
+- **Hello**
 
 ### 문자와 변수 조합
 - `+` : 문자와 변수를 연결하는 연산자
