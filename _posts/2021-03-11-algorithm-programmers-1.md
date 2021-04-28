@@ -4,7 +4,8 @@ title: "[프로그래머스] 완주하지 못한 선수"
 categories: [Algorithm]
 ---
 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42576)
+> 문제
+> <https://programmers.co.kr/learn/courses/30/lessons/42576>
 
 처음에는 단순하게 participant 배열을 리스트에 추가하고, completion 배열을 리스트에서 제거하면 될 것이라고 생각했다.
 
