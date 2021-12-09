@@ -74,3 +74,38 @@ class Solution {
     }
 }
 ```
+
+### 보완점
+
+소수 찾는 과정에서 에라토스테네스 체 구현 방법과 혼동되어 불필요한 한 줄을 더하게 되었다. 오히려 시간복잡도가 증가하기 때문에 이를 보완하면 다음과 같다.
+
+```java
+class Solution {
+    
+    public boolean isPrime(int n) {
+        for (int i = 2; i*i <= n; i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+    
+    public int solution(int[] nums) {
+        int answer = 0;
+
+        for (int i=0; i<nums.length - 2; i++) {
+            for (int j=i+1; j<nums.length - 1; j++) {
+                for (int k=j+1; k<nums.length; k++) {
+                    int sum = nums[i] + nums[j] + nums[k];
+                    if (isPrime(sum)) {
+                        answer++;
+                    }
+                }
+            }
+        }
+
+        return answer;
+    }
+}
+```
+
+다음에는 숫자 3개를 선택하는 과정에서, for 문을 여러번 사용한 부분을 다른 방식으로도 수정해봐야겠다.
