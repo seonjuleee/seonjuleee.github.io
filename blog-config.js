@@ -1,17 +1,17 @@
 module.exports = {
-  title: "seonjuleee",
+  title: "수학하는 개발자",
   description: "Hello :) I'm Seonju Lee.",
-  author: "Hudi",
-  siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
+  author: "seonjuleee",
+  siteUrl: "https://seonjuleee.github.io/",
   links: {
     github: "https://github.com/seonjuleee",
-    linkedIn: "https://linkedin.com",
-    facebook: "https://www.facebook.com",
-    instagram: "https://www.instagram.com",
+    // linkedIn: "https://linkedin.com",
+    // facebook: "https://www.facebook.com",
+    // instagram: "https://www.instagram.com",
     email: "mailto:nlsj0820@naver.com",
   },
   utterances: {
-    repo: "devHudi/gatsby-starter-hoodie",
+    repo: "seonjuleee/seonjuleee.github.io",
     type: "pathname",
   },
 }
