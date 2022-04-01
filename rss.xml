@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 28 Mar 2022 14:06:53 GMT</lastBuildDate><item><title><![CDATA[[프로그래머스] 예산]]></title><description><![CDATA[문제 링크
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 Apr 2022 14:45:34 GMT</lastBuildDate><item><title><![CDATA[프로젝트 준비하기]]></title><description><![CDATA[…]]></description><link>https://seonjuleee.github.io/2022-04-01-studier-1/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-01-studier-1/</guid><pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;아직 제대로된 프로젝트를 만들어본 적이 없다는 생각이 들었다. 간단하게만 만들어보고 방치해 둔 프로젝트가 많아 깃허브에서도 다른 사람에게 설명을 할 때도 프로젝트 경험을 자신있게 말하기 힘들었다. 어쩌면 부족할 수도 있겠지만, 이번 기회에 해보고 싶은 것을 하나씩 하며 부족한 지식을 채워나가고 싶다.&lt;/p&gt;
+&lt;p&gt;블로그에 프로젝트 과정을 기록해보는 것도 처음이어서 문장이 어색할 수도 있고 잘못된 용어나 지식을 사용할 수도 있지만, 꾸준히 기록하는 것을 목표로 차근차근 해나가려 한다.&lt;/p&gt;
+&lt;h3&gt;주제 선정&lt;/h3&gt;
+&lt;p&gt;꾸준한 프로젝트 진행을 위해서는 내가 관심있어하고 나에게 필요한 주제로 프로젝트를 진행해야겠다고 생각했다. 최근 여러 스터디를 진행하고 참여하면서, 스터디를 한데 모아서 관리할 수 있는 시스템이 있으면 좋겠다고 생각해서 &lt;strong&gt;스터디 관리 웹사이트&lt;/strong&gt;를 주제로 선정했다. &lt;/p&gt;
+&lt;h3&gt;기능&lt;/h3&gt;
+&lt;p&gt;일단 기본적인 기능은 다음과 같이 생각했으며, 추후 점차적으로 기능을 붙여나갈 계획이다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;스터디 관리&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;스터디 정보 조회&lt;/li&gt;
+&lt;li&gt;스터디 공지 관리&lt;/li&gt;
+&lt;li&gt;일정 관리&lt;/li&gt;
+&lt;li&gt;과제(인증) 관리&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;회원 관리&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;로그인&lt;/li&gt;
+&lt;li&gt;스터디 별 멤버 관리&lt;/li&gt;
+&lt;li&gt;스터디 별 권한 관리(스터디장만 공지글 작성)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;관리자 페이지&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;관리자 로그인&lt;/li&gt;
+&lt;li&gt;에러 관리 로그&lt;/li&gt;
+&lt;li&gt;로그인 로그&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;추후 추가하고 싶은 기능&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;스터디 모집 관리&lt;/li&gt;
+&lt;li&gt;기록 기능&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;기술 스택&lt;/h3&gt;
+&lt;p&gt;Spring Boot, JPA, MySQL, Spring Security, OAuth, JUnit, AWS, Jenkins&lt;/p&gt;
+&lt;p&gt;백엔드 개발을 중심으로 진행할 것이기 때문에 프론트 단은 간단하게 부트스트랩으로 나타낼 것이다. 그리고 AWS와 Jenkins는 아직 제대로 경험해본 적이 없지만 이번 프로젝트를 통해 배워갈 예정이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 예산]]></title><description><![CDATA[문제 링크
 https://programmers.co.kr/learn/courses/30/lessons/12982 문제 설명 S…]]></description><link>https://seonjuleee.github.io/2021-12-09-algorithm-programmers-31/</link><guid isPermaLink="false">https://seonjuleee.github.io/2021-12-09-algorithm-programmers-31/</guid><pubDate>Thu, 09 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;문제 링크
 &lt;a href=&quot;https://programmers.co.kr/learn/courses/30/lessons/12982&quot;&gt;https://programmers.co.kr/learn/courses/30/lessons/12982&lt;/a&gt;&lt;/p&gt;
