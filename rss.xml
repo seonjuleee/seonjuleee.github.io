@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 Apr 2022 14:45:34 GMT</lastBuildDate><item><title><![CDATA[프로젝트 준비하기]]></title><description><![CDATA[…]]></description><link>https://seonjuleee.github.io/2022-04-01-studier-1/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-01-studier-1/</guid><pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;아직 제대로된 프로젝트를 만들어본 적이 없다는 생각이 들었다. 간단하게만 만들어보고 방치해 둔 프로젝트가 많아 깃허브에서도 다른 사람에게 설명을 할 때도 프로젝트 경험을 자신있게 말하기 힘들었다. 어쩌면 부족할 수도 있겠지만, 이번 기회에 해보고 싶은 것을 하나씩 하며 부족한 지식을 채워나가고 싶다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Apr 2022 14:05:02 GMT</lastBuildDate><item><title><![CDATA[Spring boot 프로젝트 만들기]]></title><description><![CDATA[스프링부트 프로젝트를 간단하게 생성해보자. 1. Spring Initializr 홈페이지 들어가기 Spring Initializr에 들어가면 스프링부트 프로젝트를 생성할 수 있다. 2. 프로젝트 정보 입력 Input Project Info
+Input…]]></description><link>https://seonjuleee.github.io/2022-04-02-spring-boot-initial/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-02-spring-boot-initial/</guid><pubDate>Sat, 02 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;스프링부트 프로젝트를 간단하게 생성해보자.&lt;/p&gt;
+&lt;h3&gt;1. Spring Initializr 홈페이지 들어가기&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://start.spring.io/&quot;&gt;Spring Initializr&lt;/a&gt;에 들어가면 스프링부트 프로젝트를 생성할 수 있다.&lt;/p&gt;
+&lt;h3&gt;2. 프로젝트 정보 입력&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;1.png&quot; alt=&quot;Input Project Info&quot;&gt;
+&lt;img src=&quot;4.png&quot; alt=&quot;Input Project Info&quot;&gt;&lt;/p&gt;
+&lt;p&gt;개발할 프로젝트에 관해 정보를 입력하면 된다.&lt;/p&gt;
+&lt;h4&gt;Project&lt;/h4&gt;
+&lt;p&gt;Maven, Gradle은 프로젝트 라이브러리 및 빌드를 관리할 수 있는 툴이다. Gradle이 더 간편하기 때문에 요즘 많이 사용되고 있다. 나는 &lt;code class=&quot;language-text&quot;&gt;Gradle Project&lt;/code&gt;로 지정하였다.&lt;/p&gt;
+&lt;h4&gt;Language&lt;/h4&gt;
+&lt;p&gt;자바 프로젝트이기 때문에 Java를 선택했다.&lt;/p&gt;
+&lt;h4&gt;Spring Boot Version&lt;/h4&gt;
+&lt;p&gt;선택할 수 있는 버전이 다양한데, &lt;code class=&quot;language-text&quot;&gt;SNAPSHOT&lt;/code&gt;은 현재 개발 중인 버전, &lt;code class=&quot;language-text&quot;&gt;M&lt;/code&gt;은 정식으로 릴리즈되지 않은 버전이다.
+아무것도 붙어있지 않은 버전이 정식 릴리즈된 버전이므로, 정식 릴리즈 버전 중 가장 최신 버전을 선택하였다.&lt;/p&gt;
+&lt;h4&gt;Project Metadata&lt;/h4&gt;
+&lt;p&gt;프로젝트 이름을 지정하면 된다. &lt;code class=&quot;language-text&quot;&gt;Group&lt;/code&gt;은 보통 기업 도메인명, &lt;code class=&quot;language-text&quot;&gt;Artifact&lt;/code&gt;는 빌드 결과물 이름을 작성하는데, 개인 프로젝트의 경우에는 &lt;code class=&quot;language-text&quot;&gt;Group&lt;/code&gt;은 블로그나 본인을 식별할 수 있는 이름으로, &lt;code class=&quot;language-text&quot;&gt;Artifact&lt;/code&gt;는 프로젝트 이름으로 지정하면 된다.&lt;/p&gt;
+&lt;h3&gt;3. dependencies 추가&lt;/h3&gt;
+&lt;p&gt;추가할 라이브러리 및 툴 등을 선택하는 항목이다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;3.png&quot; alt=&quot;Select Dependencies&quot;&gt;&lt;/p&gt;
+&lt;p&gt;내가 추가한 항목은 다음과 같다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Spring Web&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Spring Data JPA&lt;/code&gt; : JPA를 편리하게 사용할 수 있는 기능&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Spring Security&lt;/code&gt; : 스프링 기반 보안 및 인증 담당&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Lombok&lt;/code&gt; : Getter와 Setter, Constructor를 어노테이션으로 간편하게 만들어주는 기능&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;MySQL Driver&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Thymeleaf&lt;/code&gt; : Controller가 전달하는 데이터를 View에서 동적으로 화면을 구성할 수 있도록 하는 템플릿&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;여기서 선택할 수도 있지만 프로젝트 생성 후에도 build.gradle 파일에서 Dependency를 추가할 수 있다.&lt;/p&gt;
+&lt;h3&gt;프로젝트 파일 생성하기&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;5.png&quot; alt=&quot;Input Project Info&quot;&gt;&lt;/p&gt;
+&lt;p&gt;모든 정보 및 의존성을 추가하면, GENERATE 버튼을 눌러 프로젝트를 생성하면 된다. 그러면 .zip파일로 프로젝트 파일이 생성되고 이 파일을 압축해제하면 된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[스터디 관리 웹 프로젝트 준비]]></title><description><![CDATA[…]]></description><link>https://seonjuleee.github.io/2022-04-01-studier-project-ready/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-01-studier-project-ready/</guid><pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;아직 제대로된 프로젝트를 만들어본 적이 없다는 생각이 들었다. 간단하게만 만들어보고 방치해 둔 프로젝트가 많아 깃허브에서도 다른 사람에게 설명을 할 때도 프로젝트 경험을 자신있게 말하기 힘들었다. 어쩌면 부족할 수도 있겠지만, 이번 기회에 해보고 싶은 것을 하나씩 하며 부족한 지식을 채워나가고 싶다.&lt;/p&gt;
 &lt;p&gt;블로그에 프로젝트 과정을 기록해보는 것도 처음이어서 문장이 어색할 수도 있고 잘못된 용어나 지식을 사용할 수도 있지만, 꾸준히 기록하는 것을 목표로 차근차근 해나가려 한다.&lt;/p&gt;
 &lt;h3&gt;주제 선정&lt;/h3&gt;
 &lt;p&gt;꾸준한 프로젝트 진행을 위해서는 내가 관심있어하고 나에게 필요한 주제로 프로젝트를 진행해야겠다고 생각했다. 최근 여러 스터디를 진행하고 참여하면서, 스터디를 한데 모아서 관리할 수 있는 시스템이 있으면 좋겠다고 생각해서 &lt;strong&gt;스터디 관리 웹사이트&lt;/strong&gt;를 주제로 선정했다. &lt;/p&gt;
