@@ -1,10 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Apr 2022 14:05:02 GMT</lastBuildDate><item><title><![CDATA[Spring boot 프로젝트 만들기]]></title><description><![CDATA[스프링부트 프로젝트를 간단하게 생성해보자. 1. Spring Initializr 홈페이지 들어가기 Spring Initializr에 들어가면 스프링부트 프로젝트를 생성할 수 있다. 2. 프로젝트 정보 입력 Input Project Info
-Input…]]></description><link>https://seonjuleee.github.io/2022-04-02-spring-boot-initial/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-02-spring-boot-initial/</guid><pubDate>Sat, 02 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;스프링부트 프로젝트를 간단하게 생성해보자.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Apr 2022 12:35:12 GMT</lastBuildDate><item><title><![CDATA[3월 넷째주 주간 회고]]></title><description><![CDATA[해낸 일 이번 주에 깃허브 1일…]]></description><link>https://seonjuleee.github.io/2022-04-03-weekly-report/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-03-weekly-report/</guid><pubDate>Sun, 03 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;해낸 일&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;이번 주에 &lt;strong&gt;깃허브 1일 1커밋 스터디를 시작&lt;/strong&gt;했다. 스터디 시작 이후 블로그도 다시 재개했고, 휑했던 잔디도 다시 채워져가고 있다. 개발 공부 시간도 훨씬 많아져 스터디 만들길 잘했다고 생각하고 있다. 목표는 한달로 잡았는데, 목표를 넘어 꾸준히 습관으로 자리잡고 싶다.&lt;/li&gt;
+&lt;li&gt;위의 연장선상으로 &lt;strong&gt;블로그에 글을 2개&lt;/strong&gt;(회고록까지 포함하면 3개) &lt;strong&gt;작성&lt;/strong&gt;했다. 앞으로 글을 자주 작성해서 기록을 남기는 사람이 되자.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;주말에 공부&lt;/strong&gt;했다. 항상 평일에는 열심히만 살다가 체력 부족으로 주말만 가면 늘어지는 생활을 반복했다. 주말 시간이 평일보다 더 긴데, 이를 잘 활용하지 못했었다. 이번주 주말에는 JPA 강의를 듣고 공부를 했다. 평일보다 여유롭고 더 많은 내용을 공부할 수 있어서 좋았다. 주말에 공부하는 것을 습관으로 만들자.&lt;/li&gt;
+&lt;li&gt;퇴근길에 조금씩 &lt;strong&gt;독서&lt;/strong&gt;를 했다. 1월부터 꾸준히 하고 있는 미라클모닝&amp;#x26;생활 모임이 있는데, 거기에서 퇴근길에 독서하시는 분이 계셔서 좋은 마음으로 따라했다. 평소에 책 읽을 시간이 없다고 생각했는데, 퇴근 시간에 유튜브나 노래를 듣는 대신 책을 읽으니 본래 시간을 사용하지 않으면서 책을 한 권 읽을 수 있어서 뿌듯했다. 현재는 &apos;부의 추월차선&apos;을 읽고 있다. 부를 좀 더 빨리 만들기 위한 마음가짐에 대해 배우고 있다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;회사 업무&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;새로운 프로젝트를 최근에 맡아서 신입으로서 열심히 배우고 있다. 프로젝트에 필요한 Spring Data JPA, MSA 구조, Spring Cloud Gateway, Redis, Cache에 관해 새로 배우게 되었다. 이론적인 지식을 가지고 있지 않은 상태에서 접하게 되어 진도가 느리고 기초적인 질문도 많았지만 잘 알려주셔서 고마울 따름이다.
+배우면서 아직 부족한 점이 많음을 느꼈고, 얼른 배워서 성장하고 싶다.&lt;/li&gt;
+&lt;li&gt;회사 생활에 관한 좋은 &lt;a href=&quot;https://www.youtube.com/watch?v=NqXFSuEuRKI&quot;&gt;유튜브 영상&lt;/a&gt;을 발견했다. 회사 생활을 하면서 가져야할 마인드에 대한 내용이었는데, 기존에 내가 가지고 있던 관점과 전혀 다른 관점이었다. 말씀하신 내용 중 안 좋은 태도나 습관 예시가 나와 비슷해 놀랍기도 했다. 내 단점보다는 장점을 찾고 이를 증명하려 노력해야겠다는 깨달음을 얻었다. 나중에 책 &apos;나답게 일한다는 것&apos;도 읽어봐야겠다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;부족했던 점&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;질문을 더 많이 하고, 다른 사람과 공유하는 태도를 가지자.&lt;/li&gt;
+&lt;li&gt;버리는 시간이 아직도 많다. 그 시간을 좀 더 활용해보자.&lt;/li&gt;
+&lt;li&gt;계획을 세우고 잘 지키자. 매번 계획을 초반에 세우기만 하고 나중가면 흐지부지 된다. 꾸준함은 좋은 무기가 되니 꾸준하게 하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;다음주 계획&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.inflearn.com/course/ORM-JPA-Basic&quot;&gt;JPA 강의&lt;/a&gt; 끝내기&lt;/li&gt;
+&lt;li&gt;토이프로젝트 기획, DB 설계하기&lt;/li&gt;
+&lt;li&gt;&apos;부의 추월차선&apos; 책 150페이지까지 읽기&lt;/li&gt;
+&lt;li&gt;이펙티브 자바 스터디 예습 미루지 말고 미리 하기&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring boot 프로젝트 만들기]]></title><description><![CDATA[스프링부트 프로젝트를 간단하게 생성해보자. 1. Spring Initializr 홈페이지 들어가기 Spring Initializr에 들어가면 스프링부트 프로젝트를 생성할 수 있다.…]]></description><link>https://seonjuleee.github.io/2022-04-02-spring-boot-initial/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-02-spring-boot-initial/</guid><pubDate>Sat, 02 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;스프링부트 프로젝트를 간단하게 생성해보자.&lt;/p&gt;
 &lt;h3&gt;1. Spring Initializr 홈페이지 들어가기&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://start.spring.io/&quot;&gt;Spring Initializr&lt;/a&gt;에 들어가면 스프링부트 프로젝트를 생성할 수 있다.&lt;/p&gt;
 &lt;h3&gt;2. 프로젝트 정보 입력&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;1.png&quot; alt=&quot;Input Project Info&quot;&gt;
-&lt;img src=&quot;4.png&quot; alt=&quot;Input Project Info&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/63b97d406a88020a95b1bf8117f3020e/79f65/1.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 75.88235294117648%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABJ0AAASdAHeZh94AAABkklEQVQ4y6WSB2/CMBSE8/9/X9XSgSiQQshenhlXn5Gjqgx1WDo5dpzP9+4lGoYBTdPAWoMw5nle5vBstEXbdNBa49oI5yIlNV5Wr0iOCbTSsMZewOZ5wtv+CY8vD0iSBEIIDzbGoO/75RKejzpZ46PYoBUV8voEofoL4OSAjc4xwiJURJiU8hKoB4lKZlDG3ToIzJjwl7GULHqBp8cVVqtn7HcxpmnyopNxHL382g4u57NDzty/CqTtsizQti2yLPPic1mW53WaoRcdkiJG2zV+jzlWVQWllBcvWUpmwDzEXL4GzX2ClVTQViGXB4yzhTbav6P4Dc/Q8QIkgC/oNJR5O6f7GZ6b4lxtNhvsdjus12tst1v8Z0SBTtssves6pGmKOI5R17WPge5DXrfEM2xeFLrDDwlgfsfj0TeFa8bxUzGuBciQCaFDAhn2b2AXQM6l+xUIIpBOv4vv7skDCWN+ocRQMnNMTyc/c53nuXd/Tz7DyTnT7tcpigKVA/ImdnzvmhL07jr/cTggd2fuyThjn1gliqJnjPzAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;1&apos; title=&apos;1&apos; src=&apos;/static/63b97d406a88020a95b1bf8117f3020e/ca1dc/1.png&apos; srcset=&apos;/static/63b97d406a88020a95b1bf8117f3020e/e7570/1.png 170w,
+/static/63b97d406a88020a95b1bf8117f3020e/f46e7/1.png 340w,
+/static/63b97d406a88020a95b1bf8117f3020e/ca1dc/1.png 680w,
+/static/63b97d406a88020a95b1bf8117f3020e/79f65/1.png 833w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/ae790e03af135e1238975f1c948fabdf/17459/4.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 14.705882352941178%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABJ0AAASdAHeZh94AAAAcUlEQVQI14XNsQ7DIAwEUP7/H7PRJapTiA0W4HANqVplSXODh7P0zmEPM8N7D3oumMVjLYRaK4gIOWec03vHv7hxWmsQEfDKEI3Qmo5uDA3YzGBbQzH9oVew+z4GEEJAeEWklD8DO6iqRycl4hGnW/ANbnfrMpALPvcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;4&apos; title=&apos;4&apos; src=&apos;/static/ae790e03af135e1238975f1c948fabdf/ca1dc/4.png&apos; srcset=&apos;/static/ae790e03af135e1238975f1c948fabdf/e7570/4.png 170w,
+/static/ae790e03af135e1238975f1c948fabdf/f46e7/4.png 340w,
+/static/ae790e03af135e1238975f1c948fabdf/ca1dc/4.png 680w,
+/static/ae790e03af135e1238975f1c948fabdf/17459/4.png 791w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;개발할 프로젝트에 관해 정보를 입력하면 된다.&lt;/p&gt;
 &lt;h4&gt;Project&lt;/h4&gt;
 &lt;p&gt;Maven, Gradle은 프로젝트 라이브러리 및 빌드를 관리할 수 있는 툴이다. Gradle이 더 간편하기 때문에 요즘 많이 사용되고 있다. 나는 &lt;code class=&quot;language-text&quot;&gt;Gradle Project&lt;/code&gt;로 지정하였다.&lt;/p&gt;
@@ -15,9 +55,17 @@ Input…]]></description><link>https://seonjuleee.github.io/2022-04-02-spring-bo
 아무것도 붙어있지 않은 버전이 정식 릴리즈된 버전이므로, 정식 릴리즈 버전 중 가장 최신 버전을 선택하였다.&lt;/p&gt;
 &lt;h4&gt;Project Metadata&lt;/h4&gt;
 &lt;p&gt;프로젝트 이름을 지정하면 된다. &lt;code class=&quot;language-text&quot;&gt;Group&lt;/code&gt;은 보통 기업 도메인명, &lt;code class=&quot;language-text&quot;&gt;Artifact&lt;/code&gt;는 빌드 결과물 이름을 작성하는데, 개인 프로젝트의 경우에는 &lt;code class=&quot;language-text&quot;&gt;Group&lt;/code&gt;은 블로그나 본인을 식별할 수 있는 이름으로, &lt;code class=&quot;language-text&quot;&gt;Artifact&lt;/code&gt;는 프로젝트 이름으로 지정하면 된다.&lt;/p&gt;
-&lt;h3&gt;3. dependencies 추가&lt;/h3&gt;
+&lt;h3&gt;3. Dependency 추가&lt;/h3&gt;
 &lt;p&gt;추가할 라이브러리 및 툴 등을 선택하는 항목이다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;3.png&quot; alt=&quot;Select Dependencies&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/d46b1d1d04fab53c91093605743db4f3/30577/3.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 97.05882352941177%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABJ0AAASdAHeZh94AAACvElEQVQ4y51UyY7TQBDN/5+4cQAxCA6IA0JiFoYbFxgJCc2SxYmDHdvxMlkcb207tuM8qtpJ5AwDAkp6qm4v1fVeVVcnjmOM1TH0yQQTQrnegG27rQlbCbbNZoPFYo7BYIB+v4+bm2vCLQzDhO3YcBwHnnePznq9xnLpY75YIAgDuIkOP/PwmJVliSzPkT8ExUjTVK47wWqF4XCI0WgE0zJx2j3BF/UC66xAIhIIIZClGUQi5E9ZlqEoCukZHIT3e+vwR57nyZRdl7zlYe75cGwXmq6DJUmSRPooipsDKBDvGUKk8qC9PB3WpiwreQpTKqsSfu4hKQP8ix0CrlY+und3uLu9RZ8E1zQNF73XuNIuZYE4uyROZBaCQRnKZztwEkcB+QPLsjCbzZCyJoQyr1FkldRO0o0aasku2J4uox1QasiLqqpkW+xNVCHicoWizv+Kbr3LrqHs++j1elCGCrrdPlRdwfngBG+/P8GVfom63FIlm8q2W4Xbjf0jlBOYpgmXKu2TnkEQEFYSYRgeqDXUI0k/DCO5D2nPuh5R5grzS5EK/K9t25S5KENlKK/PZ/0dPgye4Xz4Au97T/HVOAMfXNf1MVoBHqLDfcepM1VzpkF3VDgzC+q0j4n7A2EQwiedl8sldcIcrHlMjB5mdgiYUoau68q2Cf0YC3EPZfHtmA77Nv6U4YrvMlE2jAnMiYWBdYPL7hsaFNQ26/K3mbQnUds6G9KkoNJzH+ZFjjQX1BIFIhEgzkJs6krq+Euw3UGs6VGGcRxBURRo6oSyu8bH8UtcjE7wSX2FU+U5xovr3TysDj+z5wTYt6WRGfLksKdTmjYuLPJjamzNVDE2VIxobVgGplObRptFfgrbtqW3aNSxj6ig+8BNUagxHbuZtllGs43oMmXWr6IeXefNjdjPQl6z398Uft4O+BM0Aq+nGpzrWQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;3&apos; title=&apos;3&apos; src=&apos;/static/d46b1d1d04fab53c91093605743db4f3/ca1dc/3.png&apos; srcset=&apos;/static/d46b1d1d04fab53c91093605743db4f3/e7570/3.png 170w,
+/static/d46b1d1d04fab53c91093605743db4f3/f46e7/3.png 340w,
+/static/d46b1d1d04fab53c91093605743db4f3/ca1dc/3.png 680w,
+/static/d46b1d1d04fab53c91093605743db4f3/30577/3.png 806w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;내가 추가한 항목은 다음과 같다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Spring Web&lt;/code&gt;&lt;/li&gt;
@@ -29,8 +77,16 @@ Input…]]></description><link>https://seonjuleee.github.io/2022-04-02-spring-bo
 &lt;/ul&gt;
 &lt;p&gt;여기서 선택할 수도 있지만 프로젝트 생성 후에도 build.gradle 파일에서 Dependency를 추가할 수 있다.&lt;/p&gt;
 &lt;h3&gt;프로젝트 파일 생성하기&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;5.png&quot; alt=&quot;Input Project Info&quot;&gt;&lt;/p&gt;
-&lt;p&gt;모든 정보 및 의존성을 추가하면, GENERATE 버튼을 눌러 프로젝트를 생성하면 된다. 그러면 .zip파일로 프로젝트 파일이 생성되고 이 파일을 압축해제하면 된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[스터디 관리 웹 프로젝트 준비]]></title><description><![CDATA[…]]></description><link>https://seonjuleee.github.io/2022-04-01-studier-project-ready/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-01-studier-project-ready/</guid><pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;아직 제대로된 프로젝트를 만들어본 적이 없다는 생각이 들었다. 간단하게만 만들어보고 방치해 둔 프로젝트가 많아 깃허브에서도 다른 사람에게 설명을 할 때도 프로젝트 경험을 자신있게 말하기 힘들었다. 어쩌면 부족할 수도 있겠지만, 이번 기회에 해보고 싶은 것을 하나씩 하며 부족한 지식을 채워나가고 싶다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/e3ba87469545b8209da80b3257de950b/6f18b/5.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 12.352941176470589%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABJ0AAASdAHeZh94AAAAZ0lEQVQI12XM2wqDMBCEYd///SRaW7c5x3iTPMHfTaEU8WIZFma+6eydkDNmWZiNwTqHC4F8HNgY8XpmXXnugvNe/4DYN6K9WAqPbeMlQqqV2hpT/YLpBpYBav7AMfqD9gLuA9T+AD8dR5HkYuRnMwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;5&apos; title=&apos;5&apos; src=&apos;/static/e3ba87469545b8209da80b3257de950b/ca1dc/5.png&apos; srcset=&apos;/static/e3ba87469545b8209da80b3257de950b/e7570/5.png 170w,
+/static/e3ba87469545b8209da80b3257de950b/f46e7/5.png 340w,
+/static/e3ba87469545b8209da80b3257de950b/ca1dc/5.png 680w,
+/static/e3ba87469545b8209da80b3257de950b/6f18b/5.png 886w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;모든 정보 및 의존성을 추가하면, GENERATE 버튼을 눌러 프로젝트를 생성하면 된다. 그러면 .zip파일로 프로젝트 파일이 생성이 되고 파일을 압축해제해 사용하면 된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[스터디 관리 웹 프로젝트 준비]]></title><description><![CDATA[…]]></description><link>https://seonjuleee.github.io/2022-04-01-studier-project-ready/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-01-studier-project-ready/</guid><pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;아직 제대로된 프로젝트를 만들어본 적이 없다는 생각이 들었다. 간단하게만 만들어보고 방치해 둔 프로젝트가 많아 깃허브에서도 다른 사람에게 설명을 할 때도 프로젝트 경험을 자신있게 말하기 힘들었다. 어쩌면 부족할 수도 있겠지만, 이번 기회에 해보고 싶은 것을 하나씩 하며 부족한 지식을 채워나가고 싶다.&lt;/p&gt;
 &lt;p&gt;블로그에 프로젝트 과정을 기록해보는 것도 처음이어서 문장이 어색할 수도 있고 잘못된 용어나 지식을 사용할 수도 있지만, 꾸준히 기록하는 것을 목표로 차근차근 해나가려 한다.&lt;/p&gt;
 &lt;h3&gt;주제 선정&lt;/h3&gt;
 &lt;p&gt;꾸준한 프로젝트 진행을 위해서는 내가 관심있어하고 나에게 필요한 주제로 프로젝트를 진행해야겠다고 생각했다. 최근 여러 스터디를 진행하고 참여하면서, 스터디를 한데 모아서 관리할 수 있는 시스템이 있으면 좋겠다고 생각해서 &lt;strong&gt;스터디 관리 웹사이트&lt;/strong&gt;를 주제로 선정했다. &lt;/p&gt;
