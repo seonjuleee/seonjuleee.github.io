@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 Apr 2022 21:03:00 GMT</lastBuildDate><item><title><![CDATA[4월 넷째주 주간 회고]]></title><description><![CDATA[이번 주 계획 이행 JPA 강의 끝내기 ⭕ 토이프로젝트 메인 화면 구현 ⭕ 토이프로젝트 필요한 API 정리 ❌ '부의 추월차선' 책 270페이지까지 읽기 ⭕ 블로그 글 짧게 2번 포스팅하기 ❌ 커밋 스터디 5번 인증하기 ❌ 해낸 일 JPA…]]></description><link>https://seonjuleee.github.io/2022-04-24-weekly-report/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-24-weekly-report/</guid><pubDate>Sun, 24 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;이번 주 계획 이행&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Apr 2022 20:30:49 GMT</lastBuildDate><item><title><![CDATA[Github Project 기능으로 프로젝트 관리하기]]></title><description><![CDATA[이전부터 Github에 있는 Issue와 Projects 기능을 사용해서 프로젝트를 체계적으로 관리해보고 싶었다. 그래서 현재 진행하고 있는  개인 프로젝트에 적용해보기로 했다. Projects Projects…]]></description><link>https://seonjuleee.github.io/2022-04-27-using-github-projects/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-27-using-github-projects/</guid><pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;이전부터 Github에 있는 Issue와 Projects 기능을 사용해서 프로젝트를 체계적으로 관리해보고 싶었다. 그래서 현재 진행하고 있는 &lt;code class=&quot;language-text&quot;&gt;Studier&lt;/code&gt; 개인 프로젝트에 적용해보기로 했다.&lt;/p&gt;
+&lt;h3&gt;Projects&lt;/h3&gt;
+&lt;p&gt;Projects 기능을 사용하여 프로젝트의 작업 현황과 진행도를 알 수 있고, 쉽게 관리 가능하다. 내가 생성한 프로젝트를 관리할 수 있는 칸반 보드라고 생각하면 좋다.&lt;/p&gt;
+&lt;h3&gt;1. Project 생성하기&lt;/h3&gt;
+&lt;p&gt;Projects 기능을 사용해서 Issue와 연동시켜보자.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/e824578ef489a0fb85719f9a1823f4b7/db5bf/project_list.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 25.882352941176467%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABJ0AAASdAHeZh94AAAA3ElEQVQY022QzWrDMBCE9dI5N0+SPkAh4GPPgV57SaE95RCoHTmtsWP9rqTJSmqCW7rwIZjdHUYrDieN/XHCe6vx0TrI0cNaC20dnKc7MUaklH4RmVxnPeDxbYuXz1eIzW7AupF4aHqsniSe9xcYNaH/HjHNGto4NvcwjGVj6wOMo6LddMUB5DRg1DME/qkQYkkUIyf50XIi6xyU0iCiLJReDpnuQ4DIS2FB/UadyKbe+2JgjIGUPbruhP78xUkT9wjE1Pl6BvH3LrfblJcNQwggJqde9inUXma5ewVV1YPWC27NXQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;project list&apos; title=&apos;project list&apos; src=&apos;/static/e824578ef489a0fb85719f9a1823f4b7/ca1dc/project_list.png&apos; srcset=&apos;/static/e824578ef489a0fb85719f9a1823f4b7/e7570/project_list.png 170w,
+/static/e824578ef489a0fb85719f9a1823f4b7/f46e7/project_list.png 340w,
+/static/e824578ef489a0fb85719f9a1823f4b7/ca1dc/project_list.png 680w,
+/static/e824578ef489a0fb85719f9a1823f4b7/02d09/project_list.png 1020w,
+/static/e824578ef489a0fb85719f9a1823f4b7/9d567/project_list.png 1360w,
+/static/e824578ef489a0fb85719f9a1823f4b7/db5bf/project_list.png 1569w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+New Project를 클릭한다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/9c5b1ae11d31815d90c975c7b7307843/e9d40/2_new_project.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 67.05882352941177%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABJ0AAASdAHeZh94AAABP0lEQVQ4y6WTy07DMBBF/f/fxBJ+gQ0SXZQWJXZS8nD8jC8zrktpk4qqWDqa2ImvZybXYhxH7HZ7qKZBVdeoqhp1LRFixDzPf3I9RAgBWmsYYzBNE4a+h6ZDrLUwNLe0zpGZ9ETfUpxMjsZYJBJJKf0gukHj41NiXymoQw8fARfSKj6mnEUq2dD+C7Es2A4O7/sDtvWAndJoxriKGiIGsyxxUTKXqZoWXdfnMiL17hbcVx+WhBIj9VTwgzaO8CU+xkg4H86Ck2X8w7CGI60ieF78T4aWM2TbGMqOOfVhSaL+zRf9WushR8EelFKhlpK8ZuC9zx48QmXwYeQ3/in3DOGch1Qt3RKFpv0Cz4+4gs/CJ8Hst+LF9NuT5Z1gK/R6RDcO0NbcPPn6RtxCbLotnrYvxDNe27e8eU7zXZvX+Aa3WPl4UPv+egAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;2 new project&apos; title=&apos;2 new project&apos; src=&apos;/static/9c5b1ae11d31815d90c975c7b7307843/ca1dc/2_new_project.png&apos; srcset=&apos;/static/9c5b1ae11d31815d90c975c7b7307843/e7570/2_new_project.png 170w,
+/static/9c5b1ae11d31815d90c975c7b7307843/f46e7/2_new_project.png 340w,
+/static/9c5b1ae11d31815d90c975c7b7307843/ca1dc/2_new_project.png 680w,
+/static/9c5b1ae11d31815d90c975c7b7307843/e9d40/2_new_project.png 1014w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+프로젝트 정보(board 이름, 설명)를 기입하면 된다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 538px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/fc7e273b672fc086a3ad27b16207e95b/32ca7/3_select_project_template.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 124.11764705882354%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAABJ0AAASdAHeZh94AAAC5ElEQVQ4y51VibKiQAzk/z9va1fY8qGicp9y39l0BvDp072mKjXhmCbpdILWtS2FYURJmooF7N9uOf3v0gB4vdrkej55vk+H40lA+74XG4aRbaC27fh62O533eOO59M0kYYDOUdUVzUVRUlVWVHFfppmlGU3MUSMLKIokfvwcT+O+XrZgyCipmlJA2qUpGRdbLpcHTHzaJHHL+Dr/5zyMI6U3QryGUDMD+liuxTFKdX8RTxXaX+1eZ6/mAZ+kiQh23EpjOKHr03TLLw8Gw7iQz2fneZ5eU+Z1jGhVa04y/OC5r9Ia2SwW54LINZDhACs64bO5wtdLtelYu1muAbZDfvYpcpdR/v9XqJcATcO24V4RBgEIVcyZi4D8X0/YC5jcpgOyMp2HMqLQgB/7HYPgPcIGRBOGEVkcZQA8qBJNgBDo3LN4I7ryrsdA+q6vgESfY6QBTky0QAuq0rSr5lT8Fo3jWhSjK+RMo42fH8HwBeV5pQ7cSzrLJU+nizpFlTz3QK3AERRcHZ6BFQpIz3X88i2Hdld1+MUPaEgZh7BLTokzTLunBvphvHEIYlpflJLNCW3HAjHgIhZl5DFJqX5rsdZImzo23edmk7JJs4H8tKevKRXRcGLApaoiQMg+BlH8mpBQu+LsqQMSZiH48Yh7MR+zpFWXKyiLCVqVBhF0XXjtWxWQESmePQX3niChEpC4BM7hA9t4gNfOZzvEaIHFWCoxM1FABh0h0IABDqFDyUUTI8BwOENIHQIXmrRWiOag/agy1V/9arDmZaU9dcRrp0CuXyYJu0/TDowl6Z5oBNrE4ZUwenVtmUwSMq68R4QVYa+wJWazLGkC06R7sajr34T0KVh/HyfMhaAEAWqfeVoURRUFVXGvAQF8GUWDr1qvfE3HHbLmMJ4Qg+PS+utL34+BD5fTZuHlMEhWg09jQN/GrCgY3gasBsgFnhahS2/VQZH+uhr8IZd5iTLCX9BdNIrDn8BGHyKeCXsz+gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;3 select project template&apos; title=&apos;3 select project template&apos; src=&apos;/static/fc7e273b672fc086a3ad27b16207e95b/32ca7/3_select_project_template.png&apos; srcset=&apos;/static/fc7e273b672fc086a3ad27b16207e95b/e7570/3_select_project_template.png 170w,
+/static/fc7e273b672fc086a3ad27b16207e95b/f46e7/3_select_project_template.png 340w,
+/static/fc7e273b672fc086a3ad27b16207e95b/32ca7/3_select_project_template.png 538w&apos; sizes=&apos;(max-width: 538px) 100vw, 538px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+템플릿은 &lt;code class=&quot;language-text&quot;&gt;Automated kanban&lt;/code&gt;으로 선택한다. 그래야 Issue와 Pull Request 생성/수정/삭제 시 프로젝트 탭에서도 자동적으로 반영이 가능하다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/68860d97773b7edfa84ecf55878d6b66/49379/4_project_column_list.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 47.64705882352941%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABNElEQVQoz41Si27DIAzk/79yUreVPIHwhqg3mzRdmnXakE4gnznOxmIYRpRSwet2u+HVavFfuHVdEWJsGpwnzOIQc0FMBSlXIjPtBT4kjLOC8xGJko8cxzTd4zjfDSnDx9Q0xOX9gq4fcJUdPj6vcM5CmwWL9VhchCNhH+kBEnOEkLazJdE9vscYQs8zhnFET6JSSuRSMFGMBVNZWzI72Patks3VEd+8uI4LlFIE3XrBfTDk0PrweHlP3s8xPTs77uJNLug7Cf6cEEITTDm3fp1ffyV45sRM5UnqH7uK/Fu1Pgvee/Nvh8YYaG2amKcy60nwr5LPEOysHyZY6xpqXelC+iHkD06b4I4TJ4bZYNI8Ih48kzwqxtFYuABlHCZl2uiwiA0Z+s7N2sLQJOx9dsQpm/AFaZ4IpQ+etPUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;4 project column list&apos; title=&apos;4 project column list&apos; src=&apos;/static/68860d97773b7edfa84ecf55878d6b66/ca1dc/4_project_column_list.png&apos; srcset=&apos;/static/68860d97773b7edfa84ecf55878d6b66/e7570/4_project_column_list.png 170w,
+/static/68860d97773b7edfa84ecf55878d6b66/f46e7/4_project_column_list.png 340w,
+/static/68860d97773b7edfa84ecf55878d6b66/ca1dc/4_project_column_list.png 680w,
+/static/68860d97773b7edfa84ecf55878d6b66/02d09/4_project_column_list.png 1020w,
+/static/68860d97773b7edfa84ecf55878d6b66/9d567/4_project_column_list.png 1360w,
+/static/68860d97773b7edfa84ecf55878d6b66/49379/4_project_column_list.png 1395w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+프로젝트 생성 완료 후, 생성이 된 프로젝트를 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;To do&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;In progress&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Done&lt;/code&gt;으로 나누어지며, 직접 항목을 구성해볼 수도 있다. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;To do&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;작업을 새로 올렸을 때&lt;/li&gt;
+&lt;li&gt;Issue나 Pull Request를 새로 추가할 때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In progress&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;작업을 진행 중일 때&lt;/li&gt;
+&lt;li&gt;Issue나 Pull Request를 Open했을 때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Done&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;작업을 완료했을 때&lt;/li&gt;
+&lt;li&gt;Issue나 Pull Request를 Close했을 때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Issue 올리기&lt;/h3&gt;
+&lt;p&gt;Issue를 새로 추가해 좀 전에 만든 Project에 자동적으로 생성될 수 있도록 하자.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/47669ec25ec86ed1d17793312ebff633/c15e7/6_new_issue.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 41.1764705882353%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABJ0AAASdAHeZh94AAABC0lEQVQoz42Rx24DMQxE/f/fl5ySe+AC2FFhUdkJyd21fXAAE3iACFHDIXXgM+OaFFnmCs/HOfKBRAZv0CMnVogI5pzwaL3j4IdSGbdUUcgK2jTGxgRJQyZBscd+n6sEUSsrYwwsy4LexypILEiFUO0RWYF3viOvYWu0i3msgubQD6I9nLyDN3W3pJYzQ1Xvgq1tI7Nd+gheHA98RGPPn3HRpgvU9ruOLNjD3YbDXCpuvzlIuaAS217JnDeo7UWts9P7xJUSPs/f+Dh+IdUCtlof1d3554RgqRVkAkQE3sZQE2O1TzH6WHyocCFD8FNOONLF9sj2hkPMRcMhXoQ3+Y/naOY4V42mc7v6A/ucceDSEsj4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;6 new issue&apos; title=&apos;6 new issue&apos; src=&apos;/static/47669ec25ec86ed1d17793312ebff633/ca1dc/6_new_issue.png&apos; srcset=&apos;/static/47669ec25ec86ed1d17793312ebff633/e7570/6_new_issue.png 170w,
+/static/47669ec25ec86ed1d17793312ebff633/f46e7/6_new_issue.png 340w,
+/static/47669ec25ec86ed1d17793312ebff633/ca1dc/6_new_issue.png 680w,
+/static/47669ec25ec86ed1d17793312ebff633/02d09/6_new_issue.png 1020w,
+/static/47669ec25ec86ed1d17793312ebff633/9d567/6_new_issue.png 1360w,
+/static/47669ec25ec86ed1d17793312ebff633/c15e7/6_new_issue.png 1563w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+다른 부분에는 올릴 이슈에 관한 내용을 올리면 되고, 오른쪽 패널 부분을 보면 Label와 Projects이 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 396px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/94974a86361efecbb8cd85e5b51117ae/0f911/7_select_labels.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 182.94117647058826%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAYAAABCr8kFAAAACXBIWXMAABJ0AAASdAHeZh94AAAESUlEQVRIx41WWW/zRgzM//8rfSuKvrYFegAFGqAt7OTL5diWdVjWfZ9TDnUkdmzXGzCrbCQuhzPk7l0QRmi7Dl3fo1eTZ/lb1240vgv5Tn7hThda/qNH0/aoGr7Qg6OfN7luHEnRwQob3OVlhbKqdSfrUOL+NYUTVrrbRxSXnXXj5huvxq/POe6SrNAITwc3VhsjrZvmqnVtq7A1QmNnYvW+xs608LYaZtOyYcq8NXZw9u4N0IGqFshpXiBJYriuiziOEQSBzkmSqIVhiFjmibCz1g2E1HVNyDmMoMXWb2BGndoupLU6m+PzVnJ00fwaa5mTXBz6cYGnXYK39y1M56C22pgIohRCuOSnQy3sXzNGb0WtkFkOpBhehZVEuJFI390Sq32B9aG6HtWXKBtkhUQYp5my2roH1IcD2v5DpAPN3SfKz9mgkLLIJd+RRJgMDqOff4P3y+8wDh6ycRNqsNe5v+Jz0KFl23h5fR1IUaUL27Y4o1x2pi1SOeDg+dhL5FvDhOcHF6tHhb3ZYLFYEnI+12LftfrciEgpdr7MWcUrkuDzqTVNOztcPjzgLkyGCL/7J8D3Cx9l7OMg0diOA9t24Epebxnb7RbL5QOFXerCeh/h20Yc7PcwpEKMnaUV4koabMdV+GEUq/myoR+EmgamJJGczxGajqvJ7ZoaeZahkFLMi0Ks1DmT3NJJHCf6IS2SZ/4dJ6kyW8o3s8OHb68aIT9UJ3mONE2RjWTdOhQyHTqxpwuEYAtENoPN1sBOGgadlmWJQjYqxplRlyMKEjWxPDv8af2HLhTyAnNDeNEIby/5042cveaQ+ZzkxPwS9pcI783F4FAkU2n3btWacZ5FPdTO3CsnTfKdI9lkxcDyW1XhTfLnCFSK2xIjfLau/zsOjiIsq0oXwigRuTgKiZXiup7KwhItmpajuZwcH3f2E4eUyXAECLy+ntU/VQufuelwkJ058U4h58VwIC3ugce/e6SZD88LxHzVWCCkfI7m0iF1FKEurEu8PIUC0VT1EyrZZR6zfNJkf+Yw649LTyFzF4Fb5qmQkKnIWQWUDmXEeYjmHOTuBPKY7Edvj2dfGqyc0cwZxUttXoM7bXIEeXL4w9MCPz7+C88WmLudQDW0Ysiu6nJsU5cgG7NsxhzW0nUiP9TWxSqgZAibVUEZMa/Tx5+lc9Rgl0uyXI73mkZtkscUVTvKp+3OX6Im2ZimiefnF5Iy5Ckv/hTJ/CVySaVKzPnFU3iXKoWpCaPoA3IiXceyDbG9XkXYFFg1ZJlreV6crZRp0GEk76psNHTRWNnWym4lbamWewrlQkfsKmxVTM3ZO6Jsog5jOiyGCNOnAulLLve8RKvkc2u6BXImTdnzfToUUuSn2FRINzm8yJ8dMqKZlJGYL6anI/RiRWXMpRfnCUzXljwk2mD5T8K89SbLwYYyk8Jc0ZI0Vf3x7t2MTF8i4lSLzP1/JjMz3E4XdPsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;7 select labels&apos; title=&apos;7 select labels&apos; src=&apos;/static/94974a86361efecbb8cd85e5b51117ae/0f911/7_select_labels.png&apos; srcset=&apos;/static/94974a86361efecbb8cd85e5b51117ae/e7570/7_select_labels.png 170w,
+/static/94974a86361efecbb8cd85e5b51117ae/f46e7/7_select_labels.png 340w,
+/static/94974a86361efecbb8cd85e5b51117ae/0f911/7_select_labels.png 396w&apos; sizes=&apos;(max-width: 396px) 100vw, 396px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+Labels는 작업의 성격을 태그 형태로 달 수 있는 기능이며, 필수 사항은 아니다.&lt;/p&gt;
+&lt;p&gt;나의 경우, Labels 설명 그대로 문서를 관리하게 될 때는 &lt;code class=&quot;language-text&quot;&gt;documentation&lt;/code&gt;, 새로운 기능을 올릴 때는 &lt;code class=&quot;language-text&quot;&gt;inhancement&lt;/code&gt;를 사용했다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 404px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/a793574885eaa270ea8c832e1c5182e4/d2f6d/8_select_project.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 70.58823529411764%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAABtElEQVQ4y5VT7W7bMAz0+79U9297ga1DB3RZ6sSW5W99WJJlX0mu7ZZhQVoBB8kidTqK58ItETGt2PcdwB9s9L1t74eLWeaCCUNM2LcNxybg/uhxUAHC/87Bl999d+hdRmF9QFqzBPIGWJ/gw4qV9tacf883kCnP0ZlMogrjFui2xbmq0XY9Kduk/I2CH0WipyNCj2ka8VSeiLiTABN+BPLmdG4JEcVsPdS84zwBFc1P/fqGY5cI8QYSfuqI3iakSISDWfBwMqSwpJIH9OME1bSktpcSeFwqwgV4mLCh7BPySoST8TiSmoMOcuOj8oJfbUA5rDiNmdQmnIYs4PXfYKJHnaDnlQQQoWcfxoBhHOktZ+mY9wuMtTDGwnkvypZlgSdcG5LDb1jrTghKaopSjQSn2VDXFZRu0fWDlMYO4Kbt/zM87bHFhPDrtx9CohotaJqGyCpoIqvISmwna92Fif8FX5LzS5e1GSTxXCtR1ZKKqq7REGFDF7Tk0Ujdey3r6t/yapu7w2fZmI15K4s7zKXWSlNSuEl2Qfjp8AUzlcQGZwK2DK/tCwzHBP46KM9RH2JKeAYS3j9z3SbxOAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;8 select project&apos; title=&apos;8 select project&apos; src=&apos;/static/a793574885eaa270ea8c832e1c5182e4/d2f6d/8_select_project.png&apos; srcset=&apos;/static/a793574885eaa270ea8c832e1c5182e4/e7570/8_select_project.png 170w,
+/static/a793574885eaa270ea8c832e1c5182e4/f46e7/8_select_project.png 340w,
+/static/a793574885eaa270ea8c832e1c5182e4/d2f6d/8_select_project.png 404w&apos; sizes=&apos;(max-width: 404px) 100vw, 404px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+앞서 생성한 프로젝트와 연동한 경우에는, Projects에 프로젝트를 선택해주면 된다.&lt;/p&gt;
+&lt;h3&gt;예시&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/0067da54a0972502fb27277d4eecf628/4cff2/9_project_ex.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 47.64705882352941%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABf0lEQVQoz3WSC27cMAxEdf+r9CwteoSgSJq1Lcn6WX/thOLGG7dFBRC0LXH8hpTQWuN+v2OuM/+z/vedVq0NMSX03jHonLAhIaSGI1fkQjkVzi4cUNog5sf7uVdIwPoAf0R67khUl+jMkTLviVV6bKbAhMqErXUuDjHDhsgiZ8xvmUSUVnh9e8Oybni/LZQXHDHCGAvx83bD6h3ZGk8bjfAj/7lyPoPpiaLkBLlJbFJhWRasJFxrhVQK4nX3OErFGHcWehB+CUzLV8Fpy8WG22Zg9h3WOpRSuIeblBBmD0zX+2DLYwwu+hL8k3CS6GPg5bciyhWaRFmQ6qxzEN9+vOP7C0169Ocwa+tMdgpec6L+ttbI6op12xBoeOlzyoV+Jn7pCOnz0yb37mL5SnkVVNQv5zwPY8Zs1SQVrTYWu05zCqa/rJ4xb8DstVQ7TXsnwsCUkzCTK6GNozuXPosLXZUCd1D2B7TxULt7UtqQH3suYJEWu4twdG6G8XSfY8UH1b4IYce7CJUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;9 project ex&apos; title=&apos;9 project ex&apos; src=&apos;/static/0067da54a0972502fb27277d4eecf628/ca1dc/9_project_ex.png&apos; srcset=&apos;/static/0067da54a0972502fb27277d4eecf628/e7570/9_project_ex.png 170w,
+/static/0067da54a0972502fb27277d4eecf628/f46e7/9_project_ex.png 340w,
+/static/0067da54a0972502fb27277d4eecf628/ca1dc/9_project_ex.png 680w,
+/static/0067da54a0972502fb27277d4eecf628/02d09/9_project_ex.png 1020w,
+/static/0067da54a0972502fb27277d4eecf628/9d567/9_project_ex.png 1360w,
+/static/0067da54a0972502fb27277d4eecf628/4cff2/9_project_ex.png 1404w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;code class=&quot;language-text&quot;&gt;Studier&lt;/code&gt; 프로젝트에서 진행될 항목을 Issue에 올린 결과이다.&lt;/p&gt;
+&lt;p&gt;프로젝트 진행 사항을 한 눈에 볼 수 있고, Label을 통해 진행할 작업의 성격을 쉽게 알 수 있다.&lt;/p&gt;
+&lt;p&gt;앞으로 이 기능을 사용하여 프로젝트를 체계적으로 관리할 것이며, 추후 팀 프로젝트에도 적용해보고 싶다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[4월 넷째주 주간 회고]]></title><description><![CDATA[이번 주 계획 이행 JPA 강의 끝내기 ⭕ 토이프로젝트 메인 화면 구현 ⭕ 토이프로젝트 필요한 API 정리 ❌ '부의 추월차선' 책 270페이지까지 읽기 ⭕ 블로그 글 짧게 2번 포스팅하기 ❌ 커밋 스터디 5번 인증하기 ❌ 해낸 일 JPA…]]></description><link>https://seonjuleee.github.io/2022-04-24-weekly-report/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-04-24-weekly-report/</guid><pubDate>Sun, 24 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;이번 주 계획 이행&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;JPA 강의 끝내기 ⭕&lt;/li&gt;
 &lt;li&gt;토이프로젝트 메인 화면 구현 ⭕&lt;/li&gt;
