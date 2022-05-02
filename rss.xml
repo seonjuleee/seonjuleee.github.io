@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 02 May 2022 14:19:07 GMT</lastBuildDate><item><title><![CDATA[Item 1 - 생성자 대신 정적 팩터리 메서드를 고려하라]]></title><description><![CDATA[정적 팩터리 메서드 정적 팩터리 메서드(static factory method…]]></description><link>https://seonjuleee.github.io/2022-05-02-effective-java-1/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-05-02-effective-java-1/</guid><pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;정적 팩터리 메서드&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 02 May 2022 21:48:50 GMT</lastBuildDate><item><title><![CDATA[Item 1 - 생성자 대신 정적 팩터리 메서드를 고려하라]]></title><description><![CDATA[정적 팩터리 메서드 정적 팩터리 메서드(static factory method…]]></description><link>https://seonjuleee.github.io/2022-05-02-effective-java-1/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-05-02-effective-java-1/</guid><pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;정적 팩터리 메서드&lt;/h3&gt;
 &lt;p&gt;정적 팩터리 메서드(static factory method)는 &lt;strong&gt;클래스의 인스턴스를 반환하는 정적 메서드&lt;/strong&gt;이다. &lt;/p&gt;
 &lt;p&gt;예를 몇 가지 들어보자.&lt;/p&gt;
 &lt;ul&gt;
@@ -140,6 +140,13 @@
 &lt;p&gt;책 &apos;이펙티브 자바&apos;의 내용을 정리해서 블로그에 올리기로 했다&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;현재 이펙티브 자바 책을 읽고 잘 모르는 부분에 대해 질문하고 공유하는 스터디를 하고 있는데, 중반 정도 진행되다 보니 배우는 아이템의 수가 많아져 개념을 정리하는 과정이 필요하다고 느꼈다. 그래서 내가 블로그에 정리하는 것을 제안했다. 지금까지 하는 일에서 추가로 일주일 동안 아이템 2개씩 각자의 블로그에 정리해보기로 했다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ssDMIcPBqUE&quot;&gt;&apos;지속가능한 SW 개발을 위한 코드리뷰&apos; 세미나&lt;/a&gt;를 들었다&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;지금껏 코드리뷰를 계속 하지 못했어서 코드리뷰를 잘 하기 위해서는 어떤 방식이 필요한지 궁금해서 듣게 되었다. 세미나에서는 크게 코드리뷰를 해야하는 이유, 효율적인 코드리뷰를 하는 방법으로 나누어 진행되었다. 세미나를 들으면서 코드리뷰의 필요성을 느낄 수 있었고, 원활한 코드리뷰를 위해서 리뷰받는 사람과 리뷰하는 사람 모두 어떻게 해야지에 대해서도 알 수 있었다. 간략하게 얘기하자면 코드리뷰를 받는 사람은 리뷰를 하는 사람이 코드를 좀 더 빠르게 이해할 수 있도록 노력을 기울여야하고, 코드리뷰를 하는 사람은 리뷰를 받는 사람을 존중하고 기다리지 않도록 받는 즉시 할 수 있도록 해야한다는 것이었다.&lt;br&gt;
+현재 회사에서는 코드리뷰를 하지 않고 있어서 경험할 수 있는 상황이 적었는데, 코드리뷰를 혼자서 해볼 수도 있음을 알게 되어 현재 하고 있는 프로젝트에도 진행해보고 싶다는 생각을 했다. 또 코드리뷰를 중점적으로한 간단한 팀프로젝트를 해보면서 코드리뷰를 익혀봐야겠다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
