@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 09 May 2022 13:44:31 GMT</lastBuildDate><item><title><![CDATA[[Effective Java] Item 3 - private 생성자나 열거 타입으로 싱글턴임을 보증하라]]></title><description><![CDATA[싱글턴(singleton) 객체의 인스턴스를 오직…]]></description><link>https://seonjuleee.github.io/2022-05-02-effective-java-3/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-05-02-effective-java-3/</guid><pubDate>Mon, 09 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;싱글턴(singleton)&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of 수학하는 개발자]]></title><description><![CDATA[Hello :) I'm Seonju Lee.]]></description><link>https://seonjuleee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 May 2022 12:30:23 GMT</lastBuildDate><item><title><![CDATA[[Effective Java] Item 4 - 인스턴스화를 막으려거든 private 생성자를 사용하라]]></title><description><![CDATA[정적 멤버만 담은 유틸리티 클래스 정적 메서드와 정적 필드만을 담은 단순한 클래스는 다음과 같이 사용된다. 기본 타입 값이나 배열 관련 메서드 모으기 ex. ,  인터페이스를 구현하는 객체를 생성해주는 정적 메서드(또는 팩터리)를 모으기 ex…]]></description><link>https://seonjuleee.github.io/2022-05-10-effective-java-4/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-05-10-effective-java-4/</guid><pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;정적 멤버만 담은 유틸리티 클래스&lt;/h3&gt;
+&lt;p&gt;정적 메서드와 정적 필드만을 담은 단순한 클래스는 다음과 같이 사용된다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;기본 타입 값이나 배열 관련 메서드 모으기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ex. &lt;code class=&quot;language-text&quot;&gt;java.lang.Math&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;java.util.Arrays&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;인터페이스를 구현하는 객체를 생성해주는 정적 메서드(또는 팩터리)를 모으기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ex. &lt;code class=&quot;language-text&quot;&gt;java.util.Collections&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;final 클래스와 관련한 메서드 모으기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;final 클래스를 상속받아 메서드에 넣을 수 없기 때문이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이런 클래스는 인스턴스로 만들어 쓰려고 만들어진 것이 아니다.
+그러나, 생성자를 명시하지 않으면 컴파일러가 자동으로 기본 생성자를 만들어준다.
+따라서 인스턴스화를 막아야한다.&lt;/p&gt;
+&lt;p&gt;인스턴스화를 막는 방법은 아주 간단하다.
+private 생성자를 추가하면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;UtilityClass&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// 기본 생성자가 만들어지는 것을 막는다(인스턴스 방지용).&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;UtilityClass&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AssertionError&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;꼭 &lt;code class=&quot;language-text&quot;&gt;AssertionError&lt;/code&gt;를 던질 필요는 없지만 실수로라도 생성자를 호출하지 않도록 해준다.
+다만 생성자가 존재하는데 호출할 수 없으므로, 예시처럼 적절한 주석을 달아주면 좋다.&lt;/p&gt;
+&lt;h3&gt;참고&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=171196410&quot;&gt;이펙티브 자바&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[Effective Java] Item 3 - private 생성자나 열거 타입으로 싱글턴임을 보증하라]]></title><description><![CDATA[싱글턴(singleton) 객체의 인스턴스를 오직…]]></description><link>https://seonjuleee.github.io/2022-05-09-effective-java-3/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-05-09-effective-java-3/</guid><pubDate>Mon, 09 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;싱글턴(singleton)&lt;/h3&gt;
 &lt;p&gt;객체의 인스턴스를 오직 1개만 생성할 수 있는 클래스. 생성자의 호출이 반복적으로 이뤄져도 객체는 최초 생성된 객체를 반환해준다.&lt;/p&gt;
 &lt;h3&gt;클래스를 싱글턴으로 만드는 이유?&lt;/h3&gt;
 &lt;ul&gt;
@@ -72,7 +110,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=171196410&quot;&gt;이펙티브 자바&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://tecoble.techcourse.co.kr/post/2020-11-07-singleton/&quot;&gt;싱글톤(Singleton) 패턴이란?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[Effective Java] Item 2 - 생성자에 매개변수가 많다면 빌더를 고려하라]]></title><description><![CDATA[선택적 매개변수가 많을 때는 정적 팩터리 메서드와 생성자 모두 적절하게 대응하기가 힘든데, 빌더 패턴을 사용하면 해결 가능하다. 점층적 생성자 패턴(Telescoping constructor pattern…]]></description><link>https://seonjuleee.github.io/2022-05-02-effective-java-2/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-05-02-effective-java-2/</guid><pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;선택적 매개변수가 많을 때는 정적 팩터리 메서드와 생성자 모두 적절하게 대응하기가 힘든데, &lt;strong&gt;빌더 패턴&lt;/strong&gt;을 사용하면 해결 가능하다.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[Effective Java] Item 2 - 생성자에 매개변수가 많다면 빌더를 고려하라]]></title><description><![CDATA[선택적 매개변수가 많을 때는 정적 팩터리 메서드와 생성자 모두 적절하게 대응하기가 힘든데, 빌더 패턴을 사용하면 해결 가능하다. 점층적 생성자 패턴(Telescoping constructor pattern…]]></description><link>https://seonjuleee.github.io/2022-05-03-effective-java-2/</link><guid isPermaLink="false">https://seonjuleee.github.io/2022-05-03-effective-java-2/</guid><pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;선택적 매개변수가 많을 때는 정적 팩터리 메서드와 생성자 모두 적절하게 대응하기가 힘든데, &lt;strong&gt;빌더 패턴&lt;/strong&gt;을 사용하면 해결 가능하다.&lt;/p&gt;
 &lt;h3&gt;점층적 생성자 패턴(Telescoping constructor pattern)&lt;/h3&gt;
 &lt;p&gt;빌더 패턴을 설명하기 전, 비교를 위해 다른 패턴들을 살펴보자. 빌더 패턴 전에는 점층적 생성자 패턴을 사용하여 이 문제를 해결했다고 한다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Student&lt;/code&gt; 클래스로 예를 들어 보자.&lt;/p&gt;
